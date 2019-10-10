@@ -1,0 +1,4 @@
+<!--pages/out/out.wxml-->
+<!-- <block wx:for="{{list.auto}}" wx:key="index"> -->
+<!-- <web-view src="{{item.link}}"></web-view> -->
+<!-- </block> -->

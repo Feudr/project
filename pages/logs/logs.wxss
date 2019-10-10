@@ -1,0 +1,33 @@
+/* logs.wxss */
+.news {
+    width: 100%;
+    height: 180rpx;
+    padding: 10rpx;
+    display: flex;
+    align-items: center;
+    border-bottom: 1rpx solid rgb(197,199,199);
+}
+.news .left {
+    width: 480rpx;
+    height:150rpx;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10rpx;
+}
+.top {
+    width: 480rpx;
+    display: block;
+    font-size: 28rpx;
+}
+.bottom {
+    font-size: 20rpx;
+    color: #666;
+}
+.img {
+    display: block;
+    width: 220rpx;
+    height:150rpx;
+    /* margin-right: 10rpx; */
+}

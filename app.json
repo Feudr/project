@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/out/out"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc773",
+    "navigationBarTitleText": "今日天气",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#ea9518",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/firstPage.png",
+      "selectedIconPath": "/images/firstPage.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "咨讯",
+      "iconPath": "/images/consult.png",
+      "selectedIconPath": "/images/consult.png"
+    }
+  ]
+}
+}

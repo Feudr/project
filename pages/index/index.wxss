@@ -1,0 +1,66 @@
+/* 最外层大盒子 */
+.container{
+  height: 100vh;
+  display: flex;
+  /* 页码整体是垂直布局 */
+  flex-direction: column;
+  /* 水平居中 */
+  align-items: center;
+  /* 主轴上分散排列 */
+  justify-content: space-around;
+}
+
+/* 地区选择开始 */
+.drop{ 
+  width:100%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  width: 53rpx;
+  height: 53rpx;
+}
+.right{
+  width: 43rpx;
+  height: 43rpx;
+}
+/* 地区选择结束 */
+
+/* 气温显示开始 */
+text{
+  font-size: 50rpx;
+  color: #3c5f81;
+}
+/* 气温显示结束 */
+
+/* 天气图标开始 */
+image{
+  width: 200rpx;
+  height: 180rpx;
+}
+/* 天气图标结束 */
+
+/* 详细天气信息开始 */
+.information{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.weather{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+.text{
+  width: 33.3%;
+  text-align: center;
+}
+/* 详细天气信息结束 */
+/* 最外层大盒子结束 */
+
+
+

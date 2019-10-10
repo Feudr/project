@@ -1,0 +1,48 @@
+<!-- 最外层大盒子 -->
+<view class="container">
+  <!-- 地区选择开始 -->
+  <view class="drop">
+    <image class="left" src="/images/position.png"></image>
+  <picker mode="region" bindchange="changeRegion"><view>{{region}}</view></picker>   
+    <image class="right" src="/images/drop.png"></image>
+</view>
+  <!-- 地区选择结束 -->
+
+  <!-- 气温显示开始 -->
+  <text>{{now.tmp}}摄氏度 <text>{{now.cond_txt}}</text></text>
+  <!-- 气温显示结束 -->
+
+  <!-- 天气图标开始 -->
+  <image src="/images/{{now.cond_code}}.png"></image>
+  <!-- 天气图标结束 -->
+
+  <!-- 详细天气信息开始 -->
+  <view class="information">
+    <view class="weather">
+      <view class="text">湿度</view>
+      <view class="text">气压</view>
+      <view class="text">能见度</view>
+    </view>
+    <view class="weather">
+        <view class="text">{{now.hum}}%</view>
+        <view class="text">{{now.pres}}hpa</view>
+        <view class="text">{{now.vis}}Km</view>
+    </view>
+    <view class="weather">
+        <view class="text">风向</view>
+        <view class="text">风速</view>
+        <view class="text">风力</view>
+    </view>
+    <view class="weather">
+        <view class="text">{{now.wind_dir}}</view>
+        <view class="text">{{now.wind_spd}}Km/h</view>
+        <view class="text">{{now.wind_sc}}级</view>
+    </view>
+  </view>
+  <!-- 详细天气信息结束 -->
+</view>
+<!-- 最外层大盒子结束 -->
+
+
+
+

@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view>
+    <block wx:for="{{list.auto}}" wx:key="index">
+        <view class="news">
+            <view class="left">
+                <text class="top">{{item.title}}</text>
+                <text class="bottom">{{item.ptime}}</text>
+            </view>
+            <image class="img" src="{{item.picInfo[0].url}}" mode="scaleToFill"></image>
+        </view>
+    </block>
+</view>
